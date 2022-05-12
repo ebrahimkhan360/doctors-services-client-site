@@ -1,9 +1,10 @@
 import React from 'react';
+import InfoCard from '../InfoCard/InfoCard';
 
 const Info = () => {
     return (
         <div>
-            <h1>info only</h1>
+           <InfoCard></InfoCard> 
         </div>
     );
 };
